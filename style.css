@@ -1,0 +1,74 @@
+body {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: grey;
+}
+
+.description {
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.tomato-color {
+    color: tomato;
+}
+
+.flexible-cotainer {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 15px 50px;
+    border-radius: 30px;
+
+}
+
+.about-me {
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    padding: 0 50px 0 50px;
+}
+
+.my-recipies {
+    text-align: center;
+}
+
+.recipie-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 5px 7px 40px gray;
+}
+
+.recipie-item img {
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 10;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: gray;
+}
